@@ -1,0 +1,8 @@
+# Lists the SuiteSparse matrices used by the benchmarks.
+
+bcsstk01   HB       48    spd   structural stiffness, small bench
+mesh1e1    Pothen   48    spd   finite-element test mesh
+nos4       HB      100    spd   Lanczos test matrix
+bcsstk03   HB      112    spd   structural stiffness
+bcsstk04   HB      132    spd   structural stiffness
+bcsstk05   HB      153    spd   structural stiffness

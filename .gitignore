@@ -1,0 +1,35 @@
+# Build outputs
+build/
+build-*/
+out/
+cmake-build-*/
+
+# Benchmark results (per-run JSON + system info)
+results/
+
+# SuiteSparse matrix files (downloaded, not vendored)
+data/suitesparse/*.mtx
+data/suitesparse/*.mtx.gz
+data/suitesparse/*.tar.gz
+
+# CMake artefacts in-tree
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.cmake.in.user
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Compiled objects
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.exe
